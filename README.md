@@ -1,2 +1,2 @@
 # AtCoder
-atcoder and algorithm implementation
+atcoder and algorithm implementation mainly by C++.

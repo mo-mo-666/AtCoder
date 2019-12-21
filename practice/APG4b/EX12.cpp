@@ -6,5 +6,14 @@ int main()
     string S;
     cin >> S;
 
-    // ここにプログラムを追記
+    int result = S.at(0);
+    for (int i = 1; i < S.size(); i += 2) {
+        int p = S.at(i+1);
+        switch (S.at(i)) {
+            case '+':
+            result += p
+            case '-':
+            result -= p
+        }
+    }
 }

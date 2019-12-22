@@ -6,14 +6,16 @@ int main()
     string S;
     cin >> S;
 
-    int result = S.at(0);
+    int result = 1;
     for (int i = 1; i < S.size(); i += 2) {
-        int p = S.at(i+1);
         switch (S.at(i)) {
             case '+':
-            result += p
+            result += 1;
+            break;
             case '-':
-            result -= p
+            result -= 1;
+            break;
         }
     }
+    cout << result <<endl;
 }
